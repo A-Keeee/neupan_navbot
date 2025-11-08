@@ -173,29 +173,6 @@ nav-neupan/
 
 ### 常见问题
 
-**Q: 启动时出现"传感器原点超出地图边界"错误**
-```
-[planner_server] Sensor origin at (-0.00, -0.00) is out of map bounds
-```
-
-**A:** 这是工作目录问题。从项目根目录启动，或使用绝对路径的launch文件：
-```bash
-# 推荐：从项目根目录启动
-cd ~/nav_ws
-ros2 launch nav_launch nav_neupan_complete.launch.py
-```
-
-**Q: Gazebo启动缓慢或崩溃**
-
-**A:** 确保系统有足够的资源，并正确安装了Gazebo：
-```bash
-# 检查Gazebo安装
-gazebo --version
-
-# 如果需要重新安装
-sudo apt install ros-humble-gazebo-ros-pkgs
-```
-
 **Q: Nav2导航初始化失败**
 
 **A:** 检查地图文件路径是否正确，并确保仿真时间设置一致。
