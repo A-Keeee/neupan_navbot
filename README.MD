@@ -63,7 +63,7 @@ cd ~/nav_ws
 ### 2. 克隆项目
 
 ```bash
-git clone https://github.com/A-Keeee/neupan_navbot.git src
+git clone https://github.com/A-Keeee/neupan_navbot.git
 ```
 
 ### 3. 安装依赖
