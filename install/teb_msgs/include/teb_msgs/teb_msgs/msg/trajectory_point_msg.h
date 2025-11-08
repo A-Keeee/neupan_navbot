@@ -1,1 +1,0 @@
-/home/ake/nav/nav_neupan/build/teb_msgs/rosidl_generator_c/teb_msgs/msg/trajectory_point_msg.h

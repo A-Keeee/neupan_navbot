@@ -1,1 +1,0 @@
-/home/ake/nav/nav_neupan/build/neupan_ros2/launch/neupan_launch.py

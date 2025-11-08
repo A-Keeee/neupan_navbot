@@ -1,1 +1,0 @@
-/home/ake/nav/nav_neupan/src/nav_launch/launch/nav_neupan_complete.launch.py

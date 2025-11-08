@@ -1,1 +1,0 @@
-/home/ake/nav/nav_neupan/build/costmap_converter/ament_cmake_environment_hooks/local_setup.zsh

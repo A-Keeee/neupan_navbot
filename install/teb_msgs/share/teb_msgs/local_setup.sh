@@ -1,1 +1,0 @@
-/home/ake/nav/nav_neupan/build/teb_msgs/ament_cmake_environment_hooks/local_setup.sh
