@@ -1,0 +1,1 @@
+/home/ake/nav/nav_neupan/src/bot_nav/src/robot_simulation/launch/autonomous_navigation.launch.py

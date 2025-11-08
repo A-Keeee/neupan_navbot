@@ -1,0 +1,1 @@
+/home/ake/nav/nav_neupan/src/bot_nav/build/robot_description/ament_cmake_environment_hooks/local_setup.sh

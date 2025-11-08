@@ -1,0 +1,19 @@
+[0.580s] Invoking command in '/home/ake/nav/nav_neupan/build/neupan_ros2': PYTHONPATH=/home/ake/nav/nav_neupan/build/neupan_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ake/nav/nav_neupan/install/neupan_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ake/nav/nav_neupan/build/neupan_ros2/build --no-deps symlink_data
+[0.676s] /home/ake/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.676s]   warnings.warn(msg)
+[0.777s] running develop
+[0.915s] running egg_info
+[0.925s] writing neupan_ros2.egg-info/PKG-INFO
+[0.925s] writing dependency_links to neupan_ros2.egg-info/dependency_links.txt
+[0.925s] writing entry points to neupan_ros2.egg-info/entry_points.txt
+[0.925s] writing requirements to neupan_ros2.egg-info/requires.txt
+[0.925s] writing top-level names to neupan_ros2.egg-info/top_level.txt
+[0.949s] reading manifest file 'neupan_ros2.egg-info/SOURCES.txt'
+[0.950s] writing manifest file 'neupan_ros2.egg-info/SOURCES.txt'
+[0.960s] running build_ext
+[0.960s] Creating /home/ake/nav/nav_neupan/install/neupan_ros2/lib/python3.10/site-packages/neupan-ros2.egg-link (link to .)
+[0.961s] Installing neupan_node script to /home/ake/nav/nav_neupan/install/neupan_ros2/lib/neupan_ros2
+[0.961s] 
+[0.961s] Installed /home/ake/nav/nav_neupan/build/neupan_ros2
+[0.961s] running symlink_data
+[0.979s] Invoked command in '/home/ake/nav/nav_neupan/build/neupan_ros2' returned '0': PYTHONPATH=/home/ake/nav/nav_neupan/build/neupan_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ake/nav/nav_neupan/install/neupan_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ake/nav/nav_neupan/build/neupan_ros2/build --no-deps symlink_data

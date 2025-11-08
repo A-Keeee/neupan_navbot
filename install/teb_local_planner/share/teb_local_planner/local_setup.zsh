@@ -1,0 +1,1 @@
+/home/ake/nav/nav_neupan/build/teb_local_planner/ament_cmake_environment_hooks/local_setup.zsh

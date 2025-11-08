@@ -1,0 +1,144 @@
+[0.010s] Invoking command in '/home/ake/nav/nav_neupan/src/bot_nav/build/teb_local_planner': AMENT_PREFIX_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs:/home/ake/nav/nav_neupan/install/teb_local_planner:/home/ake/nav/nav_neupan/install/teb_msgs:/home/ake/nav/nav_neupan/install/robot_simulation:/home/ake/nav/nav_neupan/install/robot_description:/home/ake/nav/nav_neupan/install/costmap_converter:/home/ake/nav/nav_neupan/install/costmap_converter_msgs:/home/ake/nav/nav_neupan/install/nav_launch:/home/ake/nav/nav_neupan/install/robot_patrol:/home/ake/nav/nav_neupan/install/neupan_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/lib:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter/lib:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter/bin:${PATH} PYTHONPATH=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ake/nav/nav_neupan/src/bot_nav/src/teb_local_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.082s] -- The CXX compiler identification is GNU 11.4.0
+[0.086s] -- Detecting C compiler ABI info
+[0.132s] -- Detecting C compiler ABI info - done
+[0.136s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.137s] -- Detecting C compile features
+[0.137s] -- Detecting C compile features - done
+[0.138s] -- Detecting CXX compiler ABI info
+[0.194s] -- Detecting CXX compiler ABI info - done
+[0.198s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.198s] -- Detecting CXX compile features
+[0.198s] -- Detecting CXX compile features - done
+[0.200s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.453s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.493s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.513s] -- Found costmap_converter: 0.1.2 (/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter/share/costmap_converter/cmake)
+[0.545s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.549s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.554s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.561s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.569s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.658s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.660s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.722s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.739s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.765s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.772s] -- Looking for pthread.h
+[0.821s] -- Looking for pthread.h - found
+[0.821s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.870s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.871s] -- Found Threads: TRUE  
+[0.992s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.992s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.069s] -- Found dwb_critics: 1.1.18 (/opt/ros/humble/share/dwb_critics/cmake)
+[1.141s] -- Found teb_msgs: 0.0.1 (/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake)
+[1.152s] -- Found tf2_eigen: 0.25.16 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.154s] -- System: Linux-6.8.0-87-generic
+[1.154s] -- /opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/eigen3_cmake_module/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/home/ake/nav/nav_neupan/src/bot_nav/src/teb_local_planner/cmake_modules
+[1.156s] -- Found SuiteSparse
+[1.156s] -- Searching for g2o ...
+[1.156s] -- Found g2o headers in: /opt/ros/humble/include/g2o
+[1.157s] -- Found libg2o: /opt/ros/humble/lib/x86_64-linux-gnu/libg2o_csparse_extension.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_core.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_stuff.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_types_slam2d.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_types_slam3d.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_solver_cholmod.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_solver_pcg.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_solver_csparse.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_incremental.so
+[1.162s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[2.067s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.115s] -- Configuring done
+[2.148s] -- Generating done
+[2.152s] -- Build files have been written to: /home/ake/nav/nav_neupan/src/bot_nav/build/teb_local_planner
+[2.162s] Invoked command in '/home/ake/nav/nav_neupan/src/bot_nav/build/teb_local_planner' returned '0': AMENT_PREFIX_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs:/home/ake/nav/nav_neupan/install/teb_local_planner:/home/ake/nav/nav_neupan/install/teb_msgs:/home/ake/nav/nav_neupan/install/robot_simulation:/home/ake/nav/nav_neupan/install/robot_description:/home/ake/nav/nav_neupan/install/costmap_converter:/home/ake/nav/nav_neupan/install/costmap_converter_msgs:/home/ake/nav/nav_neupan/install/nav_launch:/home/ake/nav/nav_neupan/install/robot_patrol:/home/ake/nav/nav_neupan/install/neupan_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/lib:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter/lib:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter/bin:${PATH} PYTHONPATH=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ake/nav/nav_neupan/src/bot_nav/src/teb_local_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner
+[2.162s] Invoking command in '/home/ake/nav/nav_neupan/src/bot_nav/build/teb_local_planner': AMENT_PREFIX_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs:/home/ake/nav/nav_neupan/install/teb_local_planner:/home/ake/nav/nav_neupan/install/teb_msgs:/home/ake/nav/nav_neupan/install/robot_simulation:/home/ake/nav/nav_neupan/install/robot_description:/home/ake/nav/nav_neupan/install/costmap_converter:/home/ake/nav/nav_neupan/install/costmap_converter_msgs:/home/ake/nav/nav_neupan/install/nav_launch:/home/ake/nav/nav_neupan/install/robot_patrol:/home/ake/nav/nav_neupan/install/neupan_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/lib:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter/lib:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter/bin:${PATH} PYTHONPATH=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ake/nav/nav_neupan/src/bot_nav/build/teb_local_planner -- -j20 -l20
+[2.206s] [ 60%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/recovery_behaviors.cpp.o[0m
+[2.207s] [ 60%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/timed_elastic_band.cpp.o[0m
+[2.207s] [ 60%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/homotopy_class_planner.cpp.o[0m
+[2.207s] [ 60%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/optimal_planner.cpp.o[0m
+[2.207s] [ 60%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/teb_config.cpp.o[0m
+[2.207s] [ 80%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/visualization.cpp.o[0m
+[2.207s] [ 80%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/obstacles.cpp.o[0m
+[2.207s] [ 80%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/teb_local_planner_ros.cpp.o[0m
+[2.207s] [ 90%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.o[0m
+[8.911s] In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:57[m[K,
+[8.911s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334[m[K,
+[8.911s]                  from [01m[K/home/ake/nav/nav_neupan/src/bot_nav/src/teb_local_planner/include/teb_local_planner/teb_local_planner_ros.h:42[m[K,
+[8.911s]                  from [01m[K/home/ake/nav/nav_neupan/src/bot_nav/src/teb_local_planner/src/teb_local_planner_ros.cpp:39[m[K:
+[8.911s] [01m[K/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)[m[K’:
+[8.911s] [01m[K/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[8.911s]   197 |         RCLCPP_DEBUG(nh_->get_logger(), [01;35m[K"costmap_converter"[m[K, "Spinning up a thread for the CostmapToPolygons plugin");
+[8.911s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[8.925s] [01m[K/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[8.925s] [01m[K/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[8.925s]   313 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[8.925s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.925s] In file included from [01m[K/home/ake/nav/nav_neupan/src/bot_nav/src/teb_local_planner/include/teb_local_planner/teb_local_planner_ros.h:68[m[K,
+[8.925s]                  from [01m[K/home/ake/nav/nav_neupan/src/bot_nav/src/teb_local_planner/src/teb_local_planner_ros.cpp:39[m[K:
+[8.925s] [01m[K/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[8.925s]   313 |       RCLCPP_INFO(getLogger(), "CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[8.925s]       |                                                                                                                      [01;36m[K~^[m[K
+[8.925s]       |                                                                                                                       [01;36m[K|[m[K
+[8.926s]       |                                                                                                                       [01;36m[Kchar*[m[K
+[26.575s] [100%] [32m[1mLinking CXX shared library libteb_local_planner.so[0m
+[26.983s] [100%] Built target teb_local_planner
+[26.991s] Invoked command in '/home/ake/nav/nav_neupan/src/bot_nav/build/teb_local_planner' returned '0': AMENT_PREFIX_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs:/home/ake/nav/nav_neupan/install/teb_local_planner:/home/ake/nav/nav_neupan/install/teb_msgs:/home/ake/nav/nav_neupan/install/robot_simulation:/home/ake/nav/nav_neupan/install/robot_description:/home/ake/nav/nav_neupan/install/costmap_converter:/home/ake/nav/nav_neupan/install/costmap_converter_msgs:/home/ake/nav/nav_neupan/install/nav_launch:/home/ake/nav/nav_neupan/install/robot_patrol:/home/ake/nav/nav_neupan/install/neupan_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/lib:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter/lib:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter/bin:${PATH} PYTHONPATH=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ake/nav/nav_neupan/src/bot_nav/build/teb_local_planner -- -j20 -l20
+[26.992s] Invoking command in '/home/ake/nav/nav_neupan/src/bot_nav/build/teb_local_planner': AMENT_PREFIX_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs:/home/ake/nav/nav_neupan/install/teb_local_planner:/home/ake/nav/nav_neupan/install/teb_msgs:/home/ake/nav/nav_neupan/install/robot_simulation:/home/ake/nav/nav_neupan/install/robot_description:/home/ake/nav/nav_neupan/install/costmap_converter:/home/ake/nav/nav_neupan/install/costmap_converter_msgs:/home/ake/nav/nav_neupan/install/nav_launch:/home/ake/nav/nav_neupan/install/robot_patrol:/home/ake/nav/nav_neupan/install/neupan_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/lib:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter/lib:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter/bin:${PATH} PYTHONPATH=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ake/nav/nav_neupan/src/bot_nav/build/teb_local_planner
+[26.997s] -- Install configuration: "Release"
+[26.997s] -- Execute custom install script
+[26.998s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/lib/libteb_local_planner.so
+[27.003s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/distance_calculations.h
+[27.010s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/equivalence_relations.h
+[27.015s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/g2o_types/base_teb_edges.h
+[27.020s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_acceleration.h
+[27.025s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_dynamic_obstacle.h
+[27.030s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_kinematics.h
+[27.035s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_obstacle.h
+[27.041s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_prefer_rotdir.h
+[27.046s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_shortest_path.h
+[27.050s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_time_optimal.h
+[27.055s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_velocity.h
+[27.060s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_velocity_obstacle_ratio.h
+[27.067s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_via_point.h
+[27.072s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/g2o_types/penalties.h
+[27.077s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/g2o_types/vertex_pose.h
+[27.082s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/g2o_types/vertex_timediff.h
+[27.088s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/graph_search.h
+[27.093s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/h_signature.h
+[27.098s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/homotopy_class_planner.h
+[27.103s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/homotopy_class_planner.hpp
+[27.108s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/misc.h
+[27.113s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/obstacles.h
+[27.118s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/optimal_planner.h
+[27.123s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/planner_interface.h
+[27.130s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/pose_se2.h
+[27.135s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/recovery_behaviors.h
+[27.141s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/robot_footprint_model.h
+[27.148s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/teb_config.h
+[27.153s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/teb_local_planner_ros.h
+[27.159s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/timed_elastic_band.h
+[27.164s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/timed_elastic_band.hpp
+[27.170s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/visualization.h
+[27.175s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/include//teb_local_planner/visualization.hpp
+[27.181s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/share/teb_local_planner_plugin.xml
+[27.187s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/lib/teb_local_planner/cmd_vel_to_ackermann_drive.py
+[27.192s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/share/teb_local_planner/params/teb_params.yaml
+[27.196s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/share/teb_local_planner/environment/library_path.sh
+[27.203s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/share/teb_local_planner/environment/library_path.dsv
+[27.209s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/share/teb_local_planner//teb_local_planner_plugin.xml
+[27.214s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/share/ament_index/resource_index/package_run_dependencies/teb_local_planner
+[27.219s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/share/ament_index/resource_index/parent_prefix_path/teb_local_planner
+[27.223s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/share/teb_local_planner/environment/ament_prefix_path.sh
+[27.228s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/share/teb_local_planner/environment/ament_prefix_path.dsv
+[27.233s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/share/teb_local_planner/environment/path.sh
+[27.238s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/share/teb_local_planner/environment/path.dsv
+[27.243s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/share/teb_local_planner/local_setup.bash
+[27.250s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/share/teb_local_planner/local_setup.sh
+[27.256s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/share/teb_local_planner/local_setup.zsh
+[27.261s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/share/teb_local_planner/local_setup.dsv
+[27.267s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/share/teb_local_planner/package.dsv
+[27.271s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/share/ament_index/resource_index/packages/teb_local_planner
+[27.276s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/teb_local_planner
+[27.283s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/share/teb_local_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.288s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/share/teb_local_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[27.295s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/share/teb_local_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.299s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/share/teb_local_planner/cmake/teb_local_plannerConfig.cmake
+[27.304s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/share/teb_local_planner/cmake/teb_local_plannerConfig-version.cmake
+[27.309s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_local_planner/share/teb_local_planner/package.xml
+[27.315s] Invoked command in '/home/ake/nav/nav_neupan/src/bot_nav/build/teb_local_planner' returned '0': AMENT_PREFIX_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs:/home/ake/nav/nav_neupan/install/teb_local_planner:/home/ake/nav/nav_neupan/install/teb_msgs:/home/ake/nav/nav_neupan/install/robot_simulation:/home/ake/nav/nav_neupan/install/robot_description:/home/ake/nav/nav_neupan/install/costmap_converter:/home/ake/nav/nav_neupan/install/costmap_converter_msgs:/home/ake/nav/nav_neupan/install/nav_launch:/home/ake/nav/nav_neupan/install/robot_patrol:/home/ake/nav/nav_neupan/install/neupan_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/lib:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter/lib:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter/bin:${PATH} PYTHONPATH=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages:/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ake/nav/nav_neupan/src/bot_nav/build/teb_local_planner

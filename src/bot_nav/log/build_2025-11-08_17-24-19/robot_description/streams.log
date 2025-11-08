@@ -1,0 +1,149 @@
+[0.008s] Invoking command in '/home/ake/nav/nav_neupan/src/bot_nav/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ake/nav/nav_neupan/install/nav_launch:/home/ake/nav/nav_neupan/install/robot_patrol:/home/ake/nav/nav_neupan/install/neupan_ros2:/opt/ros/humble /usr/bin/cmake /home/ake/nav/nav_neupan/src/bot_nav/src/robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ake/nav/nav_neupan/src/bot_nav/install/robot_description
+[0.049s] -- The C compiler identification is GNU 11.4.0
+[0.082s] -- The CXX compiler identification is GNU 11.4.0
+[0.086s] -- Detecting C compiler ABI info
+[0.140s] -- Detecting C compiler ABI info - done
+[0.141s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.141s] -- Detecting C compile features
+[0.141s] -- Detecting C compile features - done
+[0.142s] -- Detecting CXX compiler ABI info
+[0.190s] -- Detecting CXX compiler ABI info - done
+[0.195s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.195s] -- Detecting CXX compile features
+[0.195s] -- Detecting CXX compile features - done
+[0.197s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.445s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.485s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.505s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[0.506s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.547s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.570s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.573s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.579s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.586s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.594s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.622s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.624s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.641s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.678s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.680s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.691s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.692s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.699s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.706s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.712s] -- Looking for pthread.h
+[0.763s] -- Looking for pthread.h - found
+[0.764s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.811s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.811s] -- Found Threads: TRUE  
+[0.847s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.848s] -- Checking for module 'bullet>=2.82'
+[0.857s] --   Found bullet, version 3.05
+[0.934s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[0.974s] -- Found assimp: /usr/include (found version "5.2.0") 
+[0.987s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.008s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.017s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.021s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.025s] -- Searching for dependencies of ignition-math6
+[1.025s] -- Looking for OGRE...
+[1.026s] -- OGRE_PREFIX_WATCH changed.
+[1.030s] -- Checking for module 'OGRE'
+[1.041s] --   Found OGRE, version 1.9.0
+[1.065s] -- Found Ogre Ghadamon (1.9.0)
+[1.070s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.077s] -- Looking for OGRE_Paging...
+[1.080s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.080s] -- Looking for OGRE_Terrain...
+[1.084s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.084s] -- Looking for OGRE_Property...
+[1.087s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.087s] -- Looking for OGRE_RTShaderSystem...
+[1.090s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.090s] -- Looking for OGRE_Volume...
+[1.093s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.093s] -- Looking for OGRE_Overlay...
+[1.096s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.166s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.168s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.168s] -- Searching for dependencies of ignition-transport8
+[1.182s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.190s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.194s] -- Checking for module 'libzmq >= 4'
+[1.205s] --   Found libzmq , version 4.3.4
+[1.230s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.234s] -- Checking for module 'uuid'
+[1.244s] --   Found uuid, version 2.37.2
+[1.269s] -- Found UUID: TRUE  
+[1.270s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.271s] -- Searching for dependencies of ignition-msgs5
+[1.284s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.289s] -- Checking for module 'tinyxml2'
+[1.299s] --   Found tinyxml2, version 9.0.0
+[1.324s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.326s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.327s] -- Searching for dependencies of ignition-common3
+[1.327s] -- Looking for dlfcn.h - found
+[1.327s] -- Looking for libdl - found
+[1.328s] -- Found DL: TRUE  
+[1.338s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.338s] -- Searching for <ignition-common3> component [graphics]
+[1.339s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.340s] -- Searching for dependencies of ignition-common3-graphics
+[1.340s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.342s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.342s] -- Searching for dependencies of ignition-fuel_tools4
+[1.394s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.401s] -- Checking for module 'jsoncpp'
+[1.409s] --   Found jsoncpp, version 1.9.5
+[1.436s] -- Found JSONCPP: TRUE  
+[1.439s] -- Checking for module 'libzip'
+[1.447s] --   Found libzip, version 1.7.3
+[1.471s] -- Found ZIP: TRUE  
+[1.472s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.472s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.472s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.476s] -- Gazebo version: 11.10
+[1.476s] -- Checking for module 'tbb'
+[1.486s] --   Found tbb, version 2021.5.0
+[1.555s] -- Configuring done
+[1.558s] -- Generating done
+[1.559s] -- Build files have been written to: /home/ake/nav/nav_neupan/src/bot_nav/build/robot_description
+[1.567s] Invoked command in '/home/ake/nav/nav_neupan/src/bot_nav/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ake/nav/nav_neupan/install/nav_launch:/home/ake/nav/nav_neupan/install/robot_patrol:/home/ake/nav/nav_neupan/install/neupan_ros2:/opt/ros/humble /usr/bin/cmake /home/ake/nav/nav_neupan/src/bot_nav/src/robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ake/nav/nav_neupan/src/bot_nav/install/robot_description
+[1.569s] Invoking command in '/home/ake/nav/nav_neupan/src/bot_nav/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ake/nav/nav_neupan/install/nav_launch:/home/ake/nav/nav_neupan/install/robot_patrol:/home/ake/nav/nav_neupan/install/neupan_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ake/nav/nav_neupan/src/bot_nav/build/robot_description -- -j20 -l20
+[1.596s] Invoked command in '/home/ake/nav/nav_neupan/src/bot_nav/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ake/nav/nav_neupan/install/nav_launch:/home/ake/nav/nav_neupan/install/robot_patrol:/home/ake/nav/nav_neupan/install/neupan_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ake/nav/nav_neupan/src/bot_nav/build/robot_description -- -j20 -l20
+[1.604s] Invoking command in '/home/ake/nav/nav_neupan/src/bot_nav/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ake/nav/nav_neupan/install/nav_launch:/home/ake/nav/nav_neupan/install/robot_patrol:/home/ake/nav/nav_neupan/install/neupan_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ake/nav/nav_neupan/src/bot_nav/build/robot_description
+[1.608s] -- Install configuration: ""
+[1.608s] -- Execute custom install script
+[1.608s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/launch/display.launch.xml
+[1.615s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/launch/gazebo.launch.xml
+[1.621s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/urdf/camera.xacro
+[1.628s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/urdf/common_properties.xacro
+[1.633s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/urdf/lidar.xacro
+[1.638s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/urdf/mobile_robot.urdf.xacro
+[1.643s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/urdf/mobile_robot_base.xacro
+[1.648s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/urdf/mobile_robot_gazebo.xacro
+[1.653s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/meshes/base_link.dae
+[1.658s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/meshes/camera.dae
+[1.666s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/meshes/motor.dae
+[1.673s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/meshes/rplidar.dae
+[1.678s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/meshes/ubase_link.dae
+[1.685s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/meshes/wheel.dae
+[1.693s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/rviz/gazebo_config.rviz
+[1.700s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/rviz/urdf_config.rviz
+[1.706s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[1.712s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[1.719s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[1.727s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[1.734s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/environment/path.sh
+[1.741s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/environment/path.dsv
+[1.746s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/local_setup.bash
+[1.754s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/local_setup.sh
+[1.761s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/local_setup.zsh
+[1.766s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/local_setup.dsv
+[1.773s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/package.dsv
+[1.781s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[1.787s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[1.795s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[1.802s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/robot_description/share/robot_description/package.xml
+[1.812s] Invoked command in '/home/ake/nav/nav_neupan/src/bot_nav/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ake/nav/nav_neupan/install/nav_launch:/home/ake/nav/nav_neupan/install/robot_patrol:/home/ake/nav/nav_neupan/install/neupan_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ake/nav/nav_neupan/src/bot_nav/build/robot_description

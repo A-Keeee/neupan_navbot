@@ -1,0 +1,254 @@
+[0.009s] Invoking command in '/home/ake/nav/nav_neupan/src/bot_nav/build/teb_msgs': AMENT_PREFIX_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs:/home/ake/nav/nav_neupan/install/teb_local_planner:/home/ake/nav/nav_neupan/install/teb_msgs:/home/ake/nav/nav_neupan/install/robot_simulation:/home/ake/nav/nav_neupan/install/robot_description:/home/ake/nav/nav_neupan/install/costmap_converter:/home/ake/nav/nav_neupan/install/costmap_converter_msgs:/home/ake/nav/nav_neupan/install/nav_launch:/home/ake/nav/nav_neupan/install/robot_patrol:/home/ake/nav/nav_neupan/install/neupan_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ake/nav/nav_neupan/src/bot_nav/src/teb_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs
+[0.045s] -- The C compiler identification is GNU 11.4.0
+[0.084s] -- The CXX compiler identification is GNU 11.4.0
+[0.088s] -- Detecting C compiler ABI info
+[0.137s] -- Detecting C compiler ABI info - done
+[0.141s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.141s] -- Detecting C compile features
+[0.141s] -- Detecting C compile features - done
+[0.143s] -- Detecting CXX compiler ABI info
+[0.200s] -- Detecting CXX compiler ABI info - done
+[0.205s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.205s] -- Detecting CXX compile features
+[0.205s] -- Detecting CXX compile features - done
+[0.206s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.457s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.500s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.521s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.541s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.545s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.550s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.557s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.566s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.574s] -- Found costmap_converter_msgs: 0.1.2 (/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake)
+[0.599s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.802s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.119s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.243s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.266s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.268s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.294s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.294s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.294s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.294s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.326s] -- Found PythonExtra: .so  
+[1.416s] -- Configuring done
+[1.441s] -- Generating done
+[1.450s] -- Build files have been written to: /home/ake/nav/nav_neupan/src/bot_nav/build/teb_msgs
+[1.461s] Invoked command in '/home/ake/nav/nav_neupan/src/bot_nav/build/teb_msgs' returned '0': AMENT_PREFIX_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs:/home/ake/nav/nav_neupan/install/teb_local_planner:/home/ake/nav/nav_neupan/install/teb_msgs:/home/ake/nav/nav_neupan/install/robot_simulation:/home/ake/nav/nav_neupan/install/robot_description:/home/ake/nav/nav_neupan/install/costmap_converter:/home/ake/nav/nav_neupan/install/costmap_converter_msgs:/home/ake/nav/nav_neupan/install/nav_launch:/home/ake/nav/nav_neupan/install/robot_patrol:/home/ake/nav/nav_neupan/install/neupan_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ake/nav/nav_neupan/src/bot_nav/src/teb_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs
+[1.462s] Invoking command in '/home/ake/nav/nav_neupan/src/bot_nav/build/teb_msgs': AMENT_PREFIX_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs:/home/ake/nav/nav_neupan/install/teb_local_planner:/home/ake/nav/nav_neupan/install/teb_msgs:/home/ake/nav/nav_neupan/install/robot_simulation:/home/ake/nav/nav_neupan/install/robot_description:/home/ake/nav/nav_neupan/install/costmap_converter:/home/ake/nav/nav_neupan/install/costmap_converter_msgs:/home/ake/nav/nav_neupan/install/nav_launch:/home/ake/nav/nav_neupan/install/robot_patrol:/home/ake/nav/nav_neupan/install/neupan_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ake/nav/nav_neupan/src/bot_nav/build/teb_msgs -- -j20 -l20
+[1.499s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.511s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.523s] [  4%] Built target ament_cmake_python_symlink_teb_msgs
+[1.827s] running egg_info
+[1.852s] creating teb_msgs.egg-info
+[1.852s] writing teb_msgs.egg-info/PKG-INFO
+[1.852s] writing dependency_links to teb_msgs.egg-info/dependency_links.txt
+[1.853s] writing top-level names to teb_msgs.egg-info/top_level.txt
+[1.853s] writing manifest file 'teb_msgs.egg-info/SOURCES.txt'
+[1.881s] [ 10%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_generator_c.dir/rosidl_generator_c/teb_msgs/msg/detail/trajectory_msg__functions.c.o[0m
+[1.881s] [ 10%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_generator_c.dir/rosidl_generator_c/teb_msgs/msg/detail/feedback_msg__functions.c.o[0m
+[1.881s] [ 10%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_generator_c.dir/rosidl_generator_c/teb_msgs/msg/detail/trajectory_point_msg__functions.c.o[0m
+[1.917s] reading manifest file 'teb_msgs.egg-info/SOURCES.txt'
+[1.919s] writing manifest file 'teb_msgs.egg-info/SOURCES.txt'
+[1.932s] [ 12%] [32m[1mLinking C shared library libteb_msgs__rosidl_generator_c.so[0m
+[1.967s] [ 12%] Built target teb_msgs__rosidl_generator_c
+[1.979s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.979s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.979s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.994s] [ 19%] Built target ament_cmake_python_build_teb_msgs_egg
+[2.038s] [ 19%] Built target teb_msgs__cpp
+[2.052s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.052s] [ 25%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.052s] [ 25%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.408s] [ 27%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/teb_msgs/msg/feedback_msg__type_support.cpp.o[0m
+[2.408s] [ 31%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/teb_msgs/msg/trajectory_point_msg__type_support.cpp.o[0m
+[2.409s] [ 31%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/teb_msgs/msg/trajectory_msg__type_support.cpp.o[0m
+[2.426s] [ 34%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teb_msgs/msg/detail/feedback_msg__type_support_c.cpp.o[0m
+[2.426s] [ 36%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teb_msgs/msg/detail/trajectory_msg__type_support_c.cpp.o[0m
+[2.434s] [ 38%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teb_msgs/msg/detail/trajectory_point_msg__type_support_c.cpp.o[0m
+[2.464s] [ 40%] [32m[1mLinking CXX shared library libteb_msgs__rosidl_typesupport_c.so[0m
+[2.483s] [ 42%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/teb_msgs/msg/detail/trajectory_msg__type_support.c.o[0m
+[2.490s] [ 44%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/teb_msgs/msg/detail/feedback_msg__type_support.c.o[0m
+[2.496s] [ 46%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/teb_msgs/msg/detail/trajectory_point_msg__type_support.c.o[0m
+[2.496s] [ 48%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/teb_msgs/msg/feedback_msg__type_support.cpp.o[0m
+[2.497s] [ 51%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/teb_msgs/msg/trajectory_msg__type_support.cpp.o[0m
+[2.515s] [ 53%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/teb_msgs/msg/trajectory_point_msg__type_support.cpp.o[0m
+[2.551s] [ 53%] Built target teb_msgs__rosidl_typesupport_c
+[2.559s] [ 57%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/teb_msgs/msg/detail/trajectory_msg__type_support.cpp.o[0m
+[2.559s] [ 57%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/teb_msgs/msg/detail/feedback_msg__type_support.cpp.o[0m
+[2.563s] [ 59%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/teb_msgs/msg/detail/dds_fastrtps/trajectory_msg__type_support.cpp.o[0m
+[2.570s] [ 63%] [32m[1mLinking C shared library libteb_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.573s] [ 65%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/teb_msgs/msg/detail/dds_fastrtps/feedback_msg__type_support.cpp.o[0m
+[2.573s] [ 63%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/teb_msgs/msg/detail/trajectory_point_msg__type_support.cpp.o[0m
+[2.581s] [ 68%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/teb_msgs/msg/detail/dds_fastrtps/trajectory_point_msg__type_support.cpp.o[0m
+[2.667s] [ 68%] Built target teb_msgs__rosidl_typesupport_introspection_c
+[2.890s] [ 70%] [32m[1mLinking CXX shared library libteb_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.952s] [ 72%] [32m[1mLinking CXX shared library libteb_msgs__rosidl_typesupport_cpp.so[0m
+[3.022s] [ 72%] Built target teb_msgs__rosidl_typesupport_cpp
+[3.055s] [ 72%] Built target teb_msgs__rosidl_typesupport_fastrtps_c
+[3.083s] [ 74%] [32m[1mLinking CXX shared library libteb_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.141s] [ 76%] [32m[1mLinking CXX shared library libteb_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.157s] [ 76%] Built target teb_msgs__rosidl_typesupport_fastrtps_cpp
+[3.211s] [ 76%] Built target teb_msgs__rosidl_typesupport_introspection_cpp
+[3.231s] [ 76%] Built target teb_msgs
+[3.257s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.616s] [ 78%] Built target teb_msgs__py
+[3.635s] [ 85%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_generator_py.dir/rosidl_generator_py/teb_msgs/msg/_feedback_msg_s.c.o[0m
+[3.635s] [ 85%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_generator_py.dir/rosidl_generator_py/teb_msgs/msg/_trajectory_msg_s.c.o[0m
+[3.635s] [ 85%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_generator_py.dir/rosidl_generator_py/teb_msgs/msg/_trajectory_point_msg_s.c.o[0m
+[3.744s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/teb_msgs/libteb_msgs__rosidl_generator_py.so[0m
+[3.779s] [ 87%] Built target teb_msgs__rosidl_generator_py
+[3.795s] [ 89%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/teb_msgs/_teb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.801s] [ 93%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/teb_msgs/_teb_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.801s] [ 93%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/teb_msgs/_teb_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.865s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/teb_msgs/teb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.869s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/teb_msgs/teb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.894s] [100%] [32m[1mLinking C shared library rosidl_generator_py/teb_msgs/teb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.900s] [100%] Built target teb_msgs__rosidl_typesupport_c__pyext
+[3.902s] [100%] Built target teb_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.921s] [100%] Built target teb_msgs__rosidl_typesupport_introspection_c__pyext
+[3.932s] Invoked command in '/home/ake/nav/nav_neupan/src/bot_nav/build/teb_msgs' returned '0': AMENT_PREFIX_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs:/home/ake/nav/nav_neupan/install/teb_local_planner:/home/ake/nav/nav_neupan/install/teb_msgs:/home/ake/nav/nav_neupan/install/robot_simulation:/home/ake/nav/nav_neupan/install/robot_description:/home/ake/nav/nav_neupan/install/costmap_converter:/home/ake/nav/nav_neupan/install/costmap_converter_msgs:/home/ake/nav/nav_neupan/install/nav_launch:/home/ake/nav/nav_neupan/install/robot_patrol:/home/ake/nav/nav_neupan/install/neupan_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ake/nav/nav_neupan/src/bot_nav/build/teb_msgs -- -j20 -l20
+[3.934s] Invoking command in '/home/ake/nav/nav_neupan/src/bot_nav/build/teb_msgs': AMENT_PREFIX_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs:/home/ake/nav/nav_neupan/install/teb_local_planner:/home/ake/nav/nav_neupan/install/teb_msgs:/home/ake/nav/nav_neupan/install/robot_simulation:/home/ake/nav/nav_neupan/install/robot_description:/home/ake/nav/nav_neupan/install/costmap_converter:/home/ake/nav/nav_neupan/install/costmap_converter_msgs:/home/ake/nav/nav_neupan/install/nav_launch:/home/ake/nav/nav_neupan/install/robot_patrol:/home/ake/nav/nav_neupan/install/neupan_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ake/nav/nav_neupan/src/bot_nav/build/teb_msgs
+[3.940s] -- Install configuration: ""
+[3.940s] -- Execute custom install script
+[3.940s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/ament_index/resource_index/rosidl_interfaces/teb_msgs
+[3.949s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__functions.h
+[3.957s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__struct.h
+[3.966s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__type_support.h
+[3.975s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__functions.h
+[3.984s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__struct.h
+[3.993s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__type_support.h
+[3.999s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__functions.h
+[4.008s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__struct.h
+[4.016s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__type_support.h
+[4.025s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/feedback_msg.h
+[4.035s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.044s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/trajectory_msg.h
+[4.052s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/trajectory_point_msg.h
+[4.059s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/environment/library_path.sh
+[4.068s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/environment/library_path.dsv
+[4.077s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__rosidl_typesupport_fastrtps_c.h
+[4.086s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__rosidl_typesupport_fastrtps_c.h
+[4.095s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__rosidl_typesupport_fastrtps_c.h
+[4.104s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.114s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__builder.hpp
+[4.121s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__struct.hpp
+[4.127s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__traits.hpp
+[4.135s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__type_support.hpp
+[4.143s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__builder.hpp
+[4.149s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__struct.hpp
+[4.158s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__traits.hpp
+[4.167s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__type_support.hpp
+[4.176s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__builder.hpp
+[4.185s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__struct.hpp
+[4.194s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__traits.hpp
+[4.200s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__type_support.hpp
+[4.209s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/feedback_msg.hpp
+[4.218s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.225s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/trajectory_msg.hpp
+[4.232s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/trajectory_point_msg.hpp
+[4.239s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[4.248s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[4.258s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[4.267s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.277s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__rosidl_typesupport_introspection_c.h
+[4.286s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__rosidl_typesupport_introspection_c.h
+[4.295s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__rosidl_typesupport_introspection_c.h
+[4.305s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.315s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__rosidl_typesupport_introspection_cpp.hpp
+[4.325s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__rosidl_typesupport_introspection_cpp.hpp
+[4.335s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__rosidl_typesupport_introspection_cpp.hpp
+[4.345s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/environment/pythonpath.sh
+[4.354s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/environment/pythonpath.dsv
+[4.365s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs-0.0.1-py3.10.egg-info/PKG-INFO
+[4.375s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs-0.0.1-py3.10.egg-info/SOURCES.txt
+[4.385s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs-0.0.1-py3.10.egg-info/dependency_links.txt
+[4.394s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs-0.0.1-py3.10.egg-info/top_level.txt
+[4.404s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/__init__.py
+[4.414s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/_teb_msgs_s.ep.rosidl_typesupport_c.c
+[4.424s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/_teb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.434s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/_teb_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.441s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/libteb_msgs__rosidl_generator_py.so
+[4.451s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg/__init__.py
+[4.461s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg/_feedback_msg.py
+[4.470s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg/_feedback_msg_s.c
+[4.479s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg/_trajectory_msg.py
+[4.489s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg/_trajectory_msg_s.c
+[4.497s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg/_trajectory_point_msg.py
+[4.507s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg/_trajectory_point_msg_s.c
+[4.515s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.522s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.529s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.539s] -- Up-to-date symlink: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.539s] -- Up-to-date symlink: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.539s] -- Up-to-date symlink: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.539s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/msg/FeedbackMsg.idl
+[4.547s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/msg/TrajectoryMsg.idl
+[4.553s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/msg/TrajectoryPointMsg.idl
+[4.560s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/msg/FeedbackMsg.msg
+[4.570s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/msg/TrajectoryMsg.msg
+[4.578s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/msg/TrajectoryPointMsg.msg
+[4.588s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/ament_index/resource_index/package_run_dependencies/teb_msgs
+[4.598s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/ament_index/resource_index/parent_prefix_path/teb_msgs
+[4.605s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/environment/ament_prefix_path.sh
+[4.614s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/environment/ament_prefix_path.dsv
+[4.624s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/environment/path.sh
+[4.633s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/environment/path.dsv
+[4.642s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/local_setup.bash
+[4.652s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/local_setup.sh
+[4.661s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/local_setup.zsh
+[4.669s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/local_setup.dsv
+[4.679s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/package.dsv
+[4.688s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/ament_index/resource_index/packages/teb_msgs
+[4.695s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/rosidl_cmake-extras.cmake
+[4.703s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.711s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.720s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.729s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.736s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.745s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.753s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/teb_msgsConfig.cmake
+[4.760s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/teb_msgsConfig-version.cmake
+[4.769s] -- Symlinking: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/package.xml
+[4.778s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/lib/libteb_msgs__rosidl_generator_c.so
+[4.778s] -- Set runtime path of "/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/lib/libteb_msgs__rosidl_generator_c.so" to ""
+[4.778s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_fastrtps_c.so
+[4.778s] -- Set runtime path of "/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.778s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.778s] -- Set runtime path of "/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.778s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_introspection_c.so
+[4.778s] -- Set runtime path of "/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.778s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_c.so
+[4.779s] -- Set runtime path of "/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_c.so" to ""
+[4.779s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_introspection_cpp.so
+[4.779s] -- Set runtime path of "/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.779s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_cpp.so
+[4.779s] -- Set runtime path of "/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_cpp.so" to ""
+[4.807s] Listing '/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs'...
+[4.807s] Compiling '/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/__init__.py'...
+[4.807s] Listing '/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg'...
+[4.807s] Compiling '/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg/__init__.py'...
+[4.807s] Compiling '/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg/_feedback_msg.py'...
+[4.807s] Compiling '/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg/_trajectory_msg.py'...
+[4.807s] Compiling '/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg/_trajectory_point_msg.py'...
+[4.810s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/lib/libteb_msgs__rosidl_generator_py.so
+[4.811s] -- Set runtime path of "/home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/lib/libteb_msgs__rosidl_generator_py.so" to ""
+[4.811s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_generator_cExport.cmake
+[4.811s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.811s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.811s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.811s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_generator_cppExport.cmake
+[4.811s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.811s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.811s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.811s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.811s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_cExport.cmake
+[4.812s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.812s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.812s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.812s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_cppExport.cmake
+[4.812s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.812s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_generator_pyExport.cmake
+[4.812s] -- Installing: /home/ake/nav/nav_neupan/src/bot_nav/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.814s] Invoked command in '/home/ake/nav/nav_neupan/src/bot_nav/build/teb_msgs' returned '0': AMENT_PREFIX_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs:/home/ake/nav/nav_neupan/install/teb_local_planner:/home/ake/nav/nav_neupan/install/teb_msgs:/home/ake/nav/nav_neupan/install/robot_simulation:/home/ake/nav/nav_neupan/install/robot_description:/home/ake/nav/nav_neupan/install/costmap_converter:/home/ake/nav/nav_neupan/install/costmap_converter_msgs:/home/ake/nav/nav_neupan/install/nav_launch:/home/ake/nav/nav_neupan/install/robot_patrol:/home/ake/nav/nav_neupan/install/neupan_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ake/nav/nav_neupan/src/bot_nav/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ake/nav/nav_neupan/src/bot_nav/build/teb_msgs

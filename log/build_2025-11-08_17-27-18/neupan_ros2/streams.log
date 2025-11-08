@@ -1,0 +1,37 @@
+[0.651s] Invoking command in '/home/ake/nav/nav_neupan/build/neupan_ros2': PYTHONPATH=/home/ake/nav/nav_neupan/build/neupan_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ake/nav/nav_neupan/install/neupan_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ake/nav/nav_neupan/build/neupan_ros2/build --no-deps symlink_data
+[0.742s] /home/ake/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.743s]   warnings.warn(msg)
+[0.843s] running develop
+[0.972s] running egg_info
+[0.982s] creating neupan_ros2.egg-info
+[0.982s] writing neupan_ros2.egg-info/PKG-INFO
+[0.982s] writing dependency_links to neupan_ros2.egg-info/dependency_links.txt
+[0.982s] writing entry points to neupan_ros2.egg-info/entry_points.txt
+[0.982s] writing requirements to neupan_ros2.egg-info/requires.txt
+[0.982s] writing top-level names to neupan_ros2.egg-info/top_level.txt
+[0.982s] writing manifest file 'neupan_ros2.egg-info/SOURCES.txt'
+[1.008s] reading manifest file 'neupan_ros2.egg-info/SOURCES.txt'
+[1.009s] writing manifest file 'neupan_ros2.egg-info/SOURCES.txt'
+[1.019s] running build_ext
+[1.019s] Creating /home/ake/nav/nav_neupan/install/neupan_ros2/lib/python3.10/site-packages/neupan-ros2.egg-link (link to .)
+[1.020s] Installing neupan_node script to /home/ake/nav/nav_neupan/install/neupan_ros2/lib/neupan_ros2
+[1.020s] 
+[1.020s] Installed /home/ake/nav/nav_neupan/build/neupan_ros2
+[1.020s] running symlink_data
+[1.020s] creating /home/ake/nav/nav_neupan/install/neupan_ros2/share/ament_index/resource_index/packages
+[1.020s] symbolically linking /home/ake/nav/nav_neupan/build/neupan_ros2/resource/neupan_ros2 -> /home/ake/nav/nav_neupan/install/neupan_ros2/share/ament_index/resource_index/packages
+[1.020s] symbolically linking /home/ake/nav/nav_neupan/build/neupan_ros2/package.xml -> /home/ake/nav/nav_neupan/install/neupan_ros2/share/neupan_ros2
+[1.020s] creating /home/ake/nav/nav_neupan/install/neupan_ros2/share/neupan_ros2/launch
+[1.020s] symbolically linking /home/ake/nav/nav_neupan/build/neupan_ros2/launch/neupan_launch.py -> /home/ake/nav/nav_neupan/install/neupan_ros2/share/neupan_ros2/launch
+[1.020s] symbolically linking /home/ake/nav/nav_neupan/build/neupan_ros2/launch/limo_diff_launch.py -> /home/ake/nav/nav_neupan/install/neupan_ros2/share/neupan_ros2/launch
+[1.020s] creating /home/ake/nav/nav_neupan/install/neupan_ros2/share/neupan_ros2/config
+[1.020s] symbolically linking /home/ake/nav/nav_neupan/build/neupan_ros2/config/limo_diff.yaml -> /home/ake/nav/nav_neupan/install/neupan_ros2/share/neupan_ros2/config
+[1.020s] creating /home/ake/nav/nav_neupan/install/neupan_ros2/share/neupan_ros2/config/neupan_config
+[1.020s] symbolically linking /home/ake/nav/nav_neupan/build/neupan_ros2/config/neupan_config/neupan_limo_diff.yaml -> /home/ake/nav/nav_neupan/install/neupan_ros2/share/neupan_ros2/config/neupan_config
+[1.021s] creating /home/ake/nav/nav_neupan/install/neupan_ros2/share/neupan_ros2/config/dune_checkpoint
+[1.021s] symbolically linking /home/ake/nav/nav_neupan/build/neupan_ros2/config/dune_checkpoint/model_5000.pth -> /home/ake/nav/nav_neupan/install/neupan_ros2/share/neupan_ros2/config/dune_checkpoint
+[1.021s] symbolically linking /home/ake/nav/nav_neupan/build/neupan_ros2/config/dune_checkpoint/train_dict.pkl -> /home/ake/nav/nav_neupan/install/neupan_ros2/share/neupan_ros2/config/dune_checkpoint
+[1.021s] symbolically linking /home/ake/nav/nav_neupan/build/neupan_ros2/config/dune_checkpoint/results.txt -> /home/ake/nav/nav_neupan/install/neupan_ros2/share/neupan_ros2/config/dune_checkpoint
+[1.021s] creating /home/ake/nav/nav_neupan/install/neupan_ros2/share/neupan_ros2/rviz
+[1.021s] symbolically linking /home/ake/nav/nav_neupan/build/neupan_ros2/rviz/neupan.rviz -> /home/ake/nav/nav_neupan/install/neupan_ros2/share/neupan_ros2/rviz
+[1.045s] Invoked command in '/home/ake/nav/nav_neupan/build/neupan_ros2' returned '0': PYTHONPATH=/home/ake/nav/nav_neupan/build/neupan_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ake/nav/nav_neupan/install/neupan_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ake/nav/nav_neupan/build/neupan_ros2/build --no-deps symlink_data

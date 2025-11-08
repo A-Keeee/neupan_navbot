@@ -1,0 +1,1 @@
+/home/ake/nav/nav_neupan/src/bot_nav/build/costmap_converter_msgs/ament_cmake_environment_hooks/pythonpath.sh

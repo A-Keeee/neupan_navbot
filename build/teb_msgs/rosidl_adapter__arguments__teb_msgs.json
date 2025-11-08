@@ -1,0 +1,8 @@
+{
+  "package_name": "teb_msgs",
+  "non_idl_tuples": [
+    "/home/ake/nav/nav_neupan/src/bot_nav/src/teb_msgs:msg/FeedbackMsg.msg",
+    "/home/ake/nav/nav_neupan/src/bot_nav/src/teb_msgs:msg/TrajectoryMsg.msg",
+    "/home/ake/nav/nav_neupan/src/bot_nav/src/teb_msgs:msg/TrajectoryPointMsg.msg"
+  ]
+}

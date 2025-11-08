@@ -1,0 +1,1 @@
+/home/ake/nav/nav_neupan/src/bot_nav/src/teb_msgs/msg/TrajectoryMsg.msg
