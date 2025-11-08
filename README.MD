@@ -6,6 +6,8 @@
 
 Nav-Neupan是一个完整的ROS2自主导航系统，集成了多种先进的导航算法和仿真环境，为室内机器人导航提供完整的解决方案。
 
+> **项目基础**: 本项目基于 [HomeBot-ROS2-Navigation](https://github.com/aimechengineer/HomeBot-ROS2-Navigation) 扩展而来，增加了NeuPAN神经网络导航算法支持。
+
 ![机器人仿真](src/bot_nav/mobile_robot_gazebo.gif)
 
 ## 🚀 项目特色
@@ -61,7 +63,7 @@ cd ~/nav_ws
 ### 2. 克隆项目
 
 ```bash
-git clone https://github.com/your-username/nav-neupan.git src
+git clone https://github.com/A-Keeee/neupan_navbot.git src
 ```
 
 ### 3. 安装依赖
@@ -222,15 +224,20 @@ ros2 launch nav_launch nav_neupan_complete.launch.py
 
 ## 🙏 致谢
 
-- **NeuPAN算法**: 基于 [hanruihua/neupan](https://github.com/hanruihua/neupan) 项目
+本项目基于以下开源项目和贡献：
+
+- **HomeBot-ROS2-Navigation**: 机器人平台基础代码 ([aimechengineer/HomeBot-ROS2-Navigation](https://github.com/aimechengineer/HomeBot-ROS2-Navigation))
+- **NeuPAN算法**: 神经网络导航算法 ([hanruihua/neupan](https://github.com/hanruihua/neupan))
 - **ROS2社区**: 感谢ROS2和Nav2项目的贡献者
 - **AgileX**: Limo机器人平台支持
 
+特别感谢原HomeBot项目的作者为ROS2导航社区做出的贡献。
+
 ## 📞 联系方式
 
-- **项目维护者**: [Your Name]
-- **邮箱**: your.email@example.com
-- **项目主页**: [GitHub Repository]
+- **项目维护者**: A-Keeee
+- **邮箱**: [邮箱地址]
+- **项目主页**: [https://github.com/A-Keeee/neupan_navbot](https://github.com/A-Keeee/neupan_navbot)
 
 ---
 
